@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 
 # --- CONFIGURATION ---
 # Replace with the characters after 'v=' in your YouTube link
-VIDEO_ID = "dQw4w9WgXcQ" 
+VIDEO_ID = "dcCyEXj1MCc" 
 
 # We use the embed URL with autoplay, loop, and playlist parameters forced on
 YOUTUBE_URL = f"https://www.youtube.com/embed/{VIDEO_ID}?autoplay=1&loop=1&playlist={VIDEO_ID}"
