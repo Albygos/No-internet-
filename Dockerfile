@@ -19,7 +19,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the Python script into the container
-COPY loop_video.py .
+COPY app.py .
 
-# Command to run the script when the container starts
-CMD ["python", "loop_video.py"]
+# Command to run the Flask web server
+CMD ["python", "app.py"]
